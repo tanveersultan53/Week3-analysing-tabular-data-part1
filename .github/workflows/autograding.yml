@@ -12,6 +12,9 @@ on:
 jobs:
   autograding:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
 
     steps:
       # Step 1: Checkout the code from the repository
