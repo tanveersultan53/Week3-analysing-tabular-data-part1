@@ -1,0 +1,49 @@
+{
+  "tests": [
+    {
+      "name": "Test: Data Loader",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/test_data_loader.py",
+      "input": "",
+      "output": "",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test: Feature Type Dictionary",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/test_feature_type_dict.py",
+      "input": "",
+      "output": "",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test: Numerical DataFrame",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/test_numerical_df.py",
+      "input": "",
+      "output": "",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test: Categorical Unique Values",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/test_categorical_unique_values.py",
+      "input": "",
+      "output": "",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test: Summary Table",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/test_summary_table.py",
+      "input": "",
+      "output": "",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
