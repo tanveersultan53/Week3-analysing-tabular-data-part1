@@ -35,9 +35,9 @@ jobs:
         run: |
           pytest --maxfail=1 --disable-warnings
 
-      # Step 5: Save test results for later use
+      # Step 5: Save test results for later use (use v3)
       - name: Archive test results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: pytest-results
           path: pytest-results.xml
