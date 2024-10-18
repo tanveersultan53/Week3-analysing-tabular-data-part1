@@ -1,11 +1,11 @@
 from titanic_analysis.categorical_unique_values import display_unique_values
-
+import pandas as pd
 def test_display_unique_values():
     # Mock a DataFrame
-    mock_df = {
+    mock_df = pd.DataFrame(data={
         'Sex': ['male', 'female', 'female', 'male'],
         'Embarked': ['S', 'C', 'S', 'Q']
-    }
+    })
     categorical_features = ['Sex', 'Embarked']
     
     unique_values = display_unique_values(mock_df, categorical_features)
